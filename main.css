@@ -8,9 +8,16 @@ html, body {
   color: white;
   padding-left: 3em;
   padding-bottom: 2.4em;
+  background-image: url(background.png);
+  background-size: 100%;
+  min-height: 550px;
 }
 .header h1 {
   display: inline-block;
+}
+
+.header .subtitle {
+  width: 10pm;
 }
 
 #logo {
@@ -24,6 +31,7 @@ html, body {
   padding: .3em 1em;
   color: #FFFFFF;
   font-size: smaller;
+  vertical-align:middle;
 }
 
 #play-music:hover {
@@ -57,6 +65,10 @@ html, body {
   content: ""
 }
 
+.location {
+  min-height: 250px;
+}
+
 .visit-us {
   background-color: #ff9900;
   color: #FFFFFF;
@@ -64,7 +76,10 @@ html, body {
   padding-bottom: 2em;
 }
 .visit-us > small {
-  display: inline-block;
+  display: block;
+}
+.visit-use h2 {
+  font-size: xx-large;
 }
 
 .footer {
