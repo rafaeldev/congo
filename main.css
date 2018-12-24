@@ -21,8 +21,6 @@ html, body {
 .header {
   background-color: #412d15;
   color: white;
-  padding-left: 3em;
-  padding-bottom: 2.4em;
   background-image: url(background.png);
   background-size: 100%;
 }
@@ -88,7 +86,6 @@ html, body {
   background-color: #ff9900;
   color: #FFFFFF;
   padding: 2em 2.5em !important;
-  /*padding-bottom: 2em;*/
 }
 .visit-us > small {
   display: block;
@@ -97,13 +94,11 @@ html, body {
   font-size: xx-large;
 }
 
-.footer {
+.infos {
   background-color: #604830;
   color: #FFFFFF;
   background-color: #412d15;
   color: white;
-  padding-left: 3em;
-  padding-top: 1.5em;
 }
 
 .embed-responsive-item {
@@ -134,4 +129,57 @@ footer > h4 {
 
 footer li:hover {
   color: #ff9900;
+}
+
+.top-breath {
+  margin-top: 1.5em;
+}
+
+.bottom-breath {
+  margin-bottom: 1.5em;
+}
+
+.inner-top-breath {
+  padding-top: 1.5em;
+}
+
+.inner-bottom-breath {
+  padding-bottom: 1.5em;
+}
+
+/* bootstrap core */
+
+.embed-responsive::before {
+  display: block;
+  content: "";
+}
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.embed-responsive-21by9::before {
+  padding-top: 42.857143%;
+}
+
+.embed-responsive-16by9::before {
+  padding-top: 56.25%;
+}
+
+.embed-responsive-3by4::before {
+  padding-top: 133.333333%;
+}
+
+.embed-responsive-1by1::before {
+  padding-top: 100%;
 }
