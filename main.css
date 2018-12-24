@@ -25,7 +25,6 @@ html, body {
   padding-bottom: 2.4em;
   background-image: url(background.png);
   background-size: 100%;
-  min-height: 550px;
 }
 .header h1 {
   display: inline-block;
@@ -82,13 +81,14 @@ html, body {
 
 .location {
   min-height: 250px;
+  padding: 0 !important;
 }
 
 .visit-us {
   background-color: #ff9900;
   color: #FFFFFF;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 2em 2.5em !important;
+  /*padding-bottom: 2em;*/
 }
 .visit-us > small {
   display: block;
@@ -109,4 +109,29 @@ html, body {
 .embed-responsive-item {
   width: 100%;
   height: 250px;
+}
+
+.header-rectangle {
+  display: inline-block;
+  border: 2px solid #ff9900;
+  height: 100%;
+  width: 100%;
+}
+
+.header-content {
+  height: 100%;
+}
+
+footer {
+  background-color: #f7f7f7;
+  color: #887f7f;
+  padding: 1em 2em;
+}
+
+footer > h4 {
+  color: #ff9900;
+}
+
+footer li:hover {
+  color: #ff9900;
 }
