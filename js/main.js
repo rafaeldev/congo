@@ -19,7 +19,7 @@ function activePlayer() {
 
 function createPlayer() {
   playerElem = document.createElement("audio");
-  playerElem.setAttribute("src", "hino.ogg");
+  playerElem.setAttribute("src", "audio/hino.ogg");
   playerElem.setAttribute("loop", "");
 
   playerButton.parentElement.appendChild(playerElem);
