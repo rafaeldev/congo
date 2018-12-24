@@ -3,6 +3,10 @@ html, body {
   margin: 0;
 }
 
+p {
+  text-align: justify;
+}
+
 .media {
   padding-left: 3em;
   padding-right: 3em;
@@ -26,8 +30,10 @@ html, body {
 .header {
   background-color: #412d15;
   color: white;
-  background-image: url(background.png);
+  background-image: url(../img/background.png);
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .header h1 {
   display: inline-block;
