@@ -118,10 +118,13 @@ p {
 }
 
 .header-rectangle {
-  display: inline-block;
+  display: none;
+}
+
+.header-rectangle > div {
   border: 2px solid #ff9900;
   height: 100%;
-  width: 100%;
+  max-width: 64px;
 }
 
 .header-content {
