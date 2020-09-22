@@ -1,6 +1,17 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("fonts/Roboto/Roboto-Regular.ttf") format("tiff");
+  src: url("fonts/Open_Sans/OpenSans-Regular.ttf") format("tiff");
+}
+
 html, body {
   padding: 0;
   margin: 0;
+  font-family: "OpenSans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
 }
 
 p {
