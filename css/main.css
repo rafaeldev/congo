@@ -62,10 +62,10 @@ p {
 #play-music {
   background-color: #ff9900;
   display: inline-block;
-  padding: .3em 1em;
+  padding: 1.5em 1.5em;
   color: #FFFFFF;
-  font-size: smaller;
   vertical-align: middle;
+  margin-top: 1em;
 }
 
 #play-music:hover {
@@ -85,18 +85,16 @@ p {
 .links a {
   color: #FFFFFF;
   text-decoration: none;
+  border-bottom: 2px #ff9900 solid;
 }
 .links a:hover {
   color: #AAAAAA;
+  border-bottom-width: 4px;
 }
 .links > li {
   display: inline;
-}
-.links > li:after {
-  content: " |"
-}
-.links > li:last-child:after {
-  content: ""
+  padding-right: 1em;
+  font-size: 18px;
 }
 
 .location {
