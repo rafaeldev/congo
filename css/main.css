@@ -206,3 +206,22 @@ footer li:hover {
 .embed-responsive-1by1::before {
   padding-top: 100%;
 }
+.activity > h3 {
+  color: #ff9900;
+}
+
+.h-center {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.watch {
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.vid {
+  margin: .5em;
+}
